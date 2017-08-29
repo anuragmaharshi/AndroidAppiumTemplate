@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <listeners>
+		<listener class-name = "utility.CustomListener"/>
+	</listeners>
+  <test name="Test">
+    <classes>
+      <class name="testNGSuite.InitTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
